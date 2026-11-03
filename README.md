@@ -1,35 +1,32 @@
-# CRYPTOLENS — Store V1
+# CRYPTOLENS — Independent Digital Research Store
 
-A bilingual (English/French), responsive static digital storefront prototype.
+A bilingual (English/French), responsive static storefront prototype for practical digital-asset research resources.
 
-## Included
-- Product catalog with category filters.
-- Three downloadable free starter resources.
-- Two local calculators: FDV/market cap and illustrative position sizing.
-- Learning/academy section and affiliate transparency principles.
-- English/French language toggle.
-- Responsive design for mobile and desktop.
+## Current storefront
+- Six product cards: three free downloads, one free browser calculator, one premium toolkit marked **launch pending**, and one planned tool.
+- English/French language switch.
+- Category filters.
+- Two browser-only calculators: fully diluted valuation / market capitalization and illustrative position sizing.
+- Educational content and clear crypto-risk / affiliate-transparency notices.
+- Responsive layout for mobile and desktop.
 
-## Important launch status
-This is a **storefront prototype**, not a functioning payment store.
-- No checkout, payment processing, crypto wallet, customer account, or personal-data collection is active.
-- Product cards marked "in development" are placeholders, not finished paid products.
-- No income is guaranteed.
-- Before enabling sales, verify Tunisian business, tax, foreign-exchange, consumer-protection and data-protection requirements, plus the payment provider's actual onboarding and payout rules for a Tunisia-resident seller.
-- Do not use false overseas residence, addresses, companies, or identity details.
-- The brand name CRYPTOLENS is provisional; check domain and trademark availability before commercial use.
+## Live status and limitations
+This repository is a **static storefront prototype**, not a complete e-commerce system.
+- No checkout, payment processing, customer accounts, wallet connection, order management, or personal-data collection is active.
+- The Premium Research Toolkit is listed for transparency but is **not available for purchase**. The PDF and spreadsheet have not yet been published as downloadable store assets.
+- No sales, income, investment return, or business outcome is guaranteed.
+- Do not enable sales until seller eligibility, business registration, tax, foreign-exchange, consumer-protection, privacy, refund and payment-provider requirements have been checked for the seller's actual country of residence.
+- Do not use false residence, address, company, identity or banking details.
+- CRYPTOLENS is a provisional brand name; check domain and trademark availability before commercial use.
 
-## Preview locally
-Open `index.html` in a modern browser. No build tools are required. Internet access is only used for optional Google Fonts; fallback fonts are provided.
+## Local preview
+Open `index.html` in a modern browser. No build tools are required. Google Fonts are optional; fallback fonts are defined in `styles.css`.
 
-## Publish free with GitHub Pages
-1. Create a GitHub account.
-2. Create a public repository named `cryptolens`.
-3. Upload the contents of this folder (not the containing folder itself).
-4. Open Settings → Pages.
-5. Under Build and deployment choose Deploy from a branch.
-6. Select `main` and `/(root)`, then Save.
-7. After publication, the URL normally looks like `https://YOUR-USERNAME.github.io/cryptolens/`.
+## GitHub Pages deployment
+1. Open repository Settings → Pages.
+2. Under Build and deployment, choose Deploy from a branch.
+3. Select `main` and `/(root)`, then Save.
+4. Wait for the Pages deployment to complete. The URL usually follows `https://YOUR-USERNAME.github.io/cryptolens/`.
 
 ## Files
 - `index.html` — storefront structure and content
